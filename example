@@ -1,0 +1,14 @@
+import os
+def addToClipBoard(text):
+    command = 'echo ' + text.strip() + '| clip'
+    os.system(command)
+
+# Example
+addToClipBoard('This should be the first clip item')
+
+def addToClipBoard(text):
+    command = 'echo ' + text.strip() + '| clip'
+    os.system(command)
+
+# Example
+addToClipBoard('Test to see if it overwrites')
